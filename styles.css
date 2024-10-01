@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e3e5f5;
+    font-family: "Arimo", sans-serif;
+}
+
+.title{
+    font-weight: 700;
+}
+.subtitle{
+    font-weight: 700;
+}
+a,a:hover,a:visited{
+    text-decoration: none;
+    
+    color: #3927b8;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    
+    box-shadow: 0 3px 3px#9b9ca6;
+}
+.google-btn{
+    display: flex; /* Alinea el contenido en una misma línea */
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente si es necesario */
+    padding: 0px 20px 0px 20px; /* Ajusta el espacio interno del botón */
+    font-weight: bold;
+    
+}
+.google-btn img{
+    width: 24px;
+}
+.email-login{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #a4a4a4;
+}
+.email-login label{
+    padding-top: 10px;
+}
+.email-login input{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.social-login{
+    display: flex;
+    gap: 25px;
+}
+.social-login button{
+    display: flex;
+    gap: 25px;
+}
+
+
+.cta-btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: #4644b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.or {
+    display: flex;
+    align-items: center; /* Alinea el texto verticalmente al centro */
+    text-align: center;
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+.or::before,
+.or::after {
+    content: ''; /* Contenido vacío para las líneas */
+    flex-grow: 1; /* Hace que las líneas crezcan ocupando el espacio disponible */
+    height: 1px; /* Altura de la línea */
+    background-color: #ccc; /* Color de las líneas */
+    margin: 0 10px; /* Espacio entre el texto y las líneas */
+}
+
+.or span {
+    white-space: nowrap; /* Evita que el texto "or" se divida en dos líneas si no hay espacio */
+    padding: 0 10px; /* Espacio alrededor del texto "or" */
+}
