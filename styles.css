@@ -36,8 +36,27 @@ a,a:hover,a:visited{
     justify-content: center; /* Centra el contenido horizontalmente si es necesario */
     padding: 0px 20px 0px 20px; /* Ajusta el espacio interno del botón */
     font-weight: bold;
+    background-color: white;
     
 }
+.google-btn:hover{
+    border: 1px solid blue;
+    transition: 0.2s;
+}
+
+.fb-btn{
+    display: flex; /* Alinea el contenido en una misma línea */
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente si es necesario */
+    padding: 0px 20px 0px 20px; /* Ajusta el espacio interno del botón */
+    font-weight: bold;
+    background-color: white;
+}
+.fb-btn:hover{
+    border: 1px solid blue;
+    transition: 0.2s;
+}
+
 .google-btn img{
     width: 24px;
 }
@@ -59,6 +78,7 @@ a,a:hover,a:visited{
     display: flex;
     gap: 25px;
 }
+
 .social-login button{
     display: flex;
     gap: 25px;
