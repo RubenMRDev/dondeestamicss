@@ -60,6 +60,9 @@ a,a:hover,a:visited{
 .google-btn img{
     width: 24px;
 }
+.fb-btn img{
+    width: 24px;
+}
 .email-login{
     display: flex;
     flex-direction: column;
